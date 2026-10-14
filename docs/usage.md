@@ -53,7 +53,7 @@ flowchart TD
     B -->|Yes| D[Explore existing code]
     D --> E{Research useful and selected?}
     E -->|Yes| F[Scoped research]
-    E -->|No| G[Resolve real scope decisions only]
+    E -->|No| G[Ask costly blocking gaps, grouped]
     F --> G
     G --> H{High-consequence unproven premise?}
     H -->|Yes| I[One independent assumption challenge]
